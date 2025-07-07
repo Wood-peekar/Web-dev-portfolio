@@ -1,0 +1,6 @@
+nav h3 ul{
+    display: flex;
+}
+nav li a{
+    text-decoration: none;
+}
