@@ -32,6 +32,18 @@ nav li a{
    border-radius: 5px;
    font-size: 20px;
 }
+.sec-bg{
+    background-color: aqua;
+}
+.section-title{
+    font-size: 35;
+    font-weight: bold;
+    color: #181818;
+    text-align: center;
+}
+.section-des{
+    text-align: center;
+}
 .nav-title{
         font-weight: 800;
         font-size: 45px;
@@ -45,6 +57,7 @@ nav li a{
 }
 .banner-content {
    max-width: 580px;
+   align-items: center;
 }
 .banner-greet{
     font-size: 45px;
@@ -67,4 +80,25 @@ nav li a{
     background-image: url(../images/developer.png),url(../images/header_bg.png) ;
     background-repeat: no-repeat;
     background-position:top left, bottom right;
+}
+.about{
+    width: 830px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 130px 120px;
+    margin-top: 130px;
+    text-align: center;
+}
+.main{
+    max-width: 1140px;
+}
+.table{
+   text-align: center;  
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.item-des{
+    font-weight: bold;
 }
