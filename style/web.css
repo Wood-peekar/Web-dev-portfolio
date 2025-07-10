@@ -63,6 +63,7 @@ nav li a{
     font-size: 45px;
     font-family: "Open Sans", sans-serif;
     font-weight: 600;
+    padding: 0;
 }
 .banner-face{
     font-weight: bold;
@@ -74,7 +75,7 @@ nav li a{
 .banner{
     display: flex;
     justify-content: space-between;
-    margin: 0 35px 0 200px;
+    margin: 0px 35px 0 200px;
 }
 .header{
     background-image: url(../images/developer.png),url(../images/header_bg.png) ;
@@ -139,6 +140,7 @@ nav li a{
 }
 .resume-column{
     margin-left: 40px;
+    gap: 50px;
 }
 .experience{
     padding: 10px 40px;
@@ -158,8 +160,57 @@ nav li a{
 .button{
     text-align: center;
     margin-top: 50px;
+    margin-bottom: 100px;
 }
 .experience-sub-title, .experience-des{
     color: #757575;
 }
+.footer{
+    display: flex;
+    background-color: rgb(136, 177, 177);
+    padding: 130px 230px;
+    gap: 100px;
+}
+.footer-title{
+    width: 50%;
+}
+footer input[type="text"]{
+    margin-bottom: 20px;
+    height: 55px;
+    width: 460px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    display: block;
+    padding: 18px 30px;
+    font-size: 20px;
+}
+footer input[type="email"]{
+    margin-bottom: 20px;
+    height: 55px;
+    width: 460px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    display: block;
+    padding: 18px 30px;
+    font-size: 20px;
+}
+footer textarea{
+    margin-bottom: 20px;
+    width: 460px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    padding: 18px 30px;
+    font-size: 20px;
+}
+footer input[type="submit"]{
+
+}
+.footer-data img{
+    padding-top: 20px;
+    justify-content: space-evenly;
+}
+
 
